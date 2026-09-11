@@ -103,7 +103,6 @@ export default function Home() {
         
         <motion.section id="hero" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp} className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center pt-4 mb-4">
           <div className="space-y-5">
-            <span className="text-xs uppercase tracking-widest text-[#ff2a85] font-mono">JANA ABDELWAHED</span>
             <h1 className="text-4xl sm:text-5xl font-extrabold text-white leading-tight">
               Hello, This Is <span className="text-[#ff2a85] drop-shadow-[0_0_12px_rgba(255,42,133,0.6)]">JANA ABDELWAHED</span>
             </h1>

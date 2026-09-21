@@ -1,6 +1,6 @@
 'use client';
-
 import React from 'react';
+
 import { motion } from 'framer-motion';
 import { Mail, Download, ExternalLink, PhoneCall, CheckCircle2, ArrowRight } from 'lucide-react';
 import { 
@@ -11,9 +11,10 @@ import {
   SiHtml5, 
   SiFigma, 
   SiFirebase, 
-  SiArduino 
+  SiArduino,
+  SiCplusplus,
 } from 'react-icons/si';
-import { FaGithub, FaLinkedin } from 'react-icons/fa6';
+import { FaGithub, FaLinkedin, FaJava } from 'react-icons/fa6';
 import Link from 'next/link';
 
 
@@ -39,8 +40,9 @@ export default function Home() {
       { name: 'Git', icon: SiGit, color: '#F05032' },
       { name: 'Flutter', icon: SiFlutter, color: '#02569B' },
       { name: 'Dart', icon: SiDart, color: '#0175C2' },
-      { name: 'Figma', icon: SiFigma, color: '#F24E1E' },
       { name: 'Python', icon: SiPython, color: '#3776AB' },
+      { name: 'C++', icon: SiCplusplus, color: '#00599C' },
+      { name: 'Java', icon: FaJava, color: '#007396' },
       { name: 'HTML', icon: SiHtml5, color: '#E34F26' },
       { name: 'Firebase', icon: SiFirebase, color: '#FFCA28' },
       { name: 'Arduino', icon: SiArduino, color: '#00979D' },

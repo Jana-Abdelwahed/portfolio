@@ -32,7 +32,7 @@ export default function Home() {
     certifications: [
       { name: "Flutter Training — ITI", link: "https://www.linkedin.com/posts/jana-abdelwahed_iti-flutter-mobileappdevelopment-activity-7503451022699425792-GpwV" },
       { name: "Applied Ai Training", link: "https://drive.google.com/file/d/1hsWpQumc8ydKhR3nHAvAgkDkkiDzyRd1/view" },
-      { name: "Beuond Earth Hackathon (Embedded Systems)", link: "https://drive.google.com/file/d/1u3uss93uP98c2T83_txqWrwHP1TCD7II/view" },
+      { name: "Flutter Development", link: "https://drive.google.com/file/d/1TREemhIfcrFe93AQkuDqIbDm2PvyXeZ_/view" },
       { name: "Public Relations Membership", link: "https://drive.google.com/file/d/1xXoTLNPqyRXtfAVArDx-mTzCqywQ1Tqt/view" },
     ],
     skills: [
@@ -228,7 +228,7 @@ export default function Home() {
           <h2 className="text-xs font-mono tracking-widest text-[#ff2a85] uppercase font-bold">CONTACT ME</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
             <div className="bg-[#141724] border border-[#202538] rounded-xl p-6 flex flex-col justify-center items-center text-center space-y-3">
-              <div className="w-16 h-16 rounded-full bg-[#ff2a85]/20 border border-[#ff2a85] flex items-center justify-center text-[#ff2a85] shadow-[0_0_15px_rgba(255,42,133,0.5)]"><PhoneCall size={28} /></div>
+              <div className="w-16 h-16 rounded-full bg-[#ff2a85]/20 border border-[#ff2a85] flex items-center justify-center text-[#ff2a85] shadow-[0_0_15px_rgba(255,42,133,0.5)]"><Mail size={28} /></div>
               <p className="text-xs font-mono text-[#ff2a85]">jana0abdelwahed@gmail.com</p>
               <p className="text-[11px] text-slate-400">Cairo, Egypt • FCIS ASU</p>
             </div>
@@ -244,7 +244,7 @@ export default function Home() {
       </main>
 
       <footer className="text-center text-[11px] text-slate-500 py-6 border-t border-[#1a1d2e]">
-        © {new Date().getFullYear()} Jana Abdelwahed. All rights reserved.
+        © Jana Abdelwahed. All rights reserved.
       </footer>
     </div>
   );

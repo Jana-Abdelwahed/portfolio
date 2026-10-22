@@ -70,7 +70,21 @@ export default function ProjectsPage() {
       image: 'https://i.pinimg.com/736x/74/a0/70/74a0708bc38e9d95e1efcba275495272.jpg',
       desc: 'IoT and hardware interface application establishing communication channels between physical microcontrollers and external inputs, To explore sustainable and efficient agricultural practices with real-world impact.',
       github: 'https://github.com/Jana-Abdelwahed'
-    }
+    },
+    {
+      name: 'Airline Passenger Satisfaction Prediction',
+      tools: ['Python', 'Machine Learning', 'AI'],
+      image: 'https://i.pinimg.com/1200x/71/99/62/7199628f1e592828276661cc14e3ec40.jpg',
+      desc: 'This project uses various machine learning and deep learning models to predict customer satisfaction in airline travel, based on structured passenger data. It includes advanced preprocessing, feature engineering, visualization, model training, evaluation, and a full-featured GUI for interaction.',
+      github: 'https://github.com/Jana-Abdelwahed/Airline_Passenger_Satisfaction_Prediction'
+    },
+    {
+      name: 'Egypt Entrepreneurship & Legal RAG Assistant',
+      tools: ['Python', 'RAG Architecture', 'Generative AI'],
+      image: 'https://i.pinimg.com/1200x/05/53/9f/05539fd4540a5a0506aa5ed06c0c1c52.jpg',
+      desc: 'An AI-powered Retrieval-Augmented Generation (RAG) assistant designed to help Egyptian entrepreneurs, founders, and investors navigate complex local regulations, company incorporation steps (GAFI), MSME laws, and venture capital funding directories.',
+      github: 'https://github.com/Jana-Abdelwahed/Ai_for_Business_Project'
+    },
   ];
 
   const fadeInUp = {
